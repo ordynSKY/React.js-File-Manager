@@ -100,9 +100,12 @@ const FileComponent = () => {
     return (
       <Row className="m-0 w-100 h-100">
         <Col md={12} className="bg-white m-0">
-          <div class="d-flex justify-content-center" style={{ marginTop: 100 }}>
-            <div class="spinner-border" role="status">
-              <span class="visually-hidden">Loading...</span>
+          <div
+            className="d-flex justify-content-center"
+            style={{ marginTop: 100 }}
+          >
+            <div className="spinner-border" role="status">
+              <span className="visually-hidden">Loading...</span>
             </div>
           </div>
         </Col>

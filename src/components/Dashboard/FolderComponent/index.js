@@ -66,9 +66,12 @@ const FolderComponent = () => {
     return (
       <Row>
         <Col md="12">
-          <div class="d-flex justify-content-center" style={{ marginTop: 100 }}>
-            <div class="spinner-border" role="status">
-              <span class="visually-hidden">Loading...</span>
+          <div
+            className="d-flex justify-content-center"
+            style={{ marginTop: 100 }}
+          >
+            <div className="spinner-border" role="status">
+              <span className="visually-hidden">Loading...</span>
             </div>
           </div>
         </Col>
@@ -108,11 +111,11 @@ const FolderComponent = () => {
           >
             {!folders ? (
               <div
-                class="d-flex justify-content-center"
+                className="d-flex justify-content-center"
                 style={{ marginTop: 100 }}
               >
-                <div class="spinner-border" role="status">
-                  <span class="visually-hidden">Loading...</span>
+                <div className="spinner-border" role="status">
+                  <span className="visually-hidden">Loading...</span>
                 </div>
               </div>
             ) : (
