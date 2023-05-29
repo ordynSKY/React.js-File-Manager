@@ -1,16 +1,31 @@
-# React Js Firebase FIle Management System [V1.0] 
+# React.js File Manager
 
-This is the file management system made with reactjs and frebase. where user cn upload files, create folders and sub folders, and also even user can create file and he/she can edit and save created file.
+React.js file manager with the ability to upload, download, create, edit files.
 
-<a href="https://react-firebase-file-management.herokuapp.com/">Demo Link Heroku</a> 
-<a href="https://react-firebase-file-management-system.vercel.app/">Demo Link Vercel</a> 
+## Available Scripts
 
+In the project directory, you can run:
 
-## Installation Guide
+### `npm start`
 
-1. Download repo and unzip it.
-2. Open terminal under this repo and run `yarn` to install all dependencies
-3. Now, create .env file in the root directory and copy the data from .env.sample file
-4. Now, Create your firebase project on firebase console and fill your credentials in .env file
-5. Now, run `yarn dev` to run development server.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+## Description
+
+### What was done:
+
+1. React.js, JavaScript, Redux, Redux-Thunk were used.
+2. Used Firebase to store data.
+
+3. Authorization and registration was implemented
+4. Uploaded, downloaded and created files
+5. Routing between folders and files was implemented
+6. Implemented file modification
+
+### What was done additionally:
+
+1. Added toast to display information and errors
